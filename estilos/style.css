@@ -1,8 +1,8 @@
 @charset "UTF-8"; 
 
 @font-face {
-    font-family: 'hand';
-    src: url(../fonts/handwriting.otf) format(opentype);
+    font-family: 'Cinzel';
+    src: url(../fonts/Cinzel.ttf) format(truetype);
 }
 
 * {
@@ -16,8 +16,8 @@ body, html {
 }
 
 nav > a {
-    font-family: 'hand';
-    font-size: 21px;
+    font-family: 'Cinzel';
+    font-size: 15px;
     color: white;
     text-decoration: none;
     padding: 10px;
