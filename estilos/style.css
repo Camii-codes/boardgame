@@ -1,0 +1,42 @@
+@charset "UTF-8"; 
+
+@font-face {
+    font-family: 'hand';
+    src: url(../fonts/handwriting.otf) format(opentype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: black;
+}
+
+nav > a {
+    font-family: 'hand';
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    margin-top: 40px;
+    height: 50px;
+}
+
+#line {
+    margin-top: 10px;
+    padding: 20px;
+    width: 400px;
+}
+
+#logo {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+}
